@@ -7,6 +7,7 @@ const ErrorMessages = {
     lengthErrorRegexMessage: "is too short",
     termsConditionRegexMessage: "You must agree to the Terms of Service",
     passwordLengthRegexMessage: "is too short(minimum is 8 characters)",
-    SpaceNotAllowedRegexMessage: "Spaces are not allowed"
+    spaceNotAllowedRegexMessage: "Spaces are not allowed",
+    isExists: "has already been taken."
 };
 export default ErrorMessages;
