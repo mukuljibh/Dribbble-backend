@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const credentialsSchema = new mongoose.Schema({
     Username: {
@@ -19,6 +19,9 @@ const credentialsSchema = new mongoose.Schema({
     },
 });
 
-const UserCredentialsModel = mongoose.model('UserCredentialsModel', credentialsSchema);
+const UserCredentialsModel = mongoose.model(
+    "UserCredentialsModel",
+    credentialsSchema,
+);
 
-export { UserCredentialsModel }
+export { UserCredentialsModel };
