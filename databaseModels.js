@@ -4,18 +4,18 @@ const credentialsSchema = new mongoose.Schema({
     Username: {
         type: String,
         unique: true,
-        index: true,
+        index: true
     },
     Email: {
         type: String,
         unique: true,
-        index: true,
+        index: true
     },
     name: {
-        type: String,
+        type: String
     },
     Password: {
-        type: String,
+        type: String
     },
 });
 
